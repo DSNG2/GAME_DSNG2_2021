@@ -1,22 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Protagonista - nome, espécie, idade, sexo, etnia, profissão, histórico
 
  Alaric; humano; 20; masculino; branco (brasileiro); estudante; homofóbico, mau caráter.
