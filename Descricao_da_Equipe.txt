@@ -10,7 +10,7 @@ Nomes e Descrição das Funções:
                                         números
 - Camila Ellen Santos Luzia                9                      Roteiro e universo
 - Ana Luiza Corrêa Magalhães               2                      Desing e criação
-- Karolaine Bonifácio Teodoro              22                     Trilha e gravações
+- Karolaine Bonifácio Teodoro              24                     Trilha e gravações
 - Ana Clara Freitas Garcia                 1                      Continuidade e documentação                       
 - Gabriel de Souza Pivoto                  14                     Computação Grafica
 - Bruna Soares Magalhães                   7                      Programação  
