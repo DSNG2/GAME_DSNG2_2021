@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------------------------------------------
+
+Número de Inscrição: 
+
+2
+
+
+Nomes e Descrição das Funções:
+ 
+                                        números
+- Camila Ellen Santos Luzia                09                      Roteiro e universo
+- Ana Luiza Corrêa Magalhães               02                      Desing e criação
+- Karolaine Bonifácio Teodoro              24                      Trilha e gravações
+- Ana Clara Freitas Garcia                 01                      Continuidade e documentação                       
+- Gabriel de Souza Pivoto                  14                      Computação Grafica
+- Bruna Soares Magalhães                   08                      Programação  
+- Juan de Carvalho Faustino                40                      Programação
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
