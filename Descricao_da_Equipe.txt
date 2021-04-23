@@ -12,7 +12,7 @@ Nomes e Descrição das Funções:
 - Ana Luiza Corrêa Magalhães               2                      Desing e criação
 - Karolaine Bonifácio Teodoro              22                     Trilha e gravações
 - Ana Clara Freitas Garcia                 1                      Continuidade e documentação                       
-- Gabriel de Souza Pivoto                  13                     Computação Grafica
+- Gabriel de Souza Pivoto                  14                     Computação Grafica
 - Bruna Soares Magalhães                   7                      Programação  
 - Juan de Carvalho Faustino                40                     Programação
 
