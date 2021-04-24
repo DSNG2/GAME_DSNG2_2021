@@ -1,6 +1,22 @@
 # GAME_DSNG2_2021
 Repositório do jogo, feito pelo grupo DSNG2.
 
+Storytelling - que história será contada?
+
+            A história contada será de um jovem universitário, chamado Alaric, que sofreu um acidente e encontra-se em coma. Então ele acorda em um mundo diferente, aparentemente vazio, encontrando apenas uma pessoa, a Cef, que será sua guia nessa jornada. Ele terá que lutar contra criaturas de natureza desconhecida e resolver mistérios para conseguir voltar para sua vida real. 
+
+Na medida que cada fase passa, ele recupera suas memórias e descobre ser o principal responsável pelo suicídio de um colega, o Jack, devido a diversos atos homofóbicos.
+
+            Ele terá uma nova chance de voltar para casa, ou ficar preso em um mundo caótico para sempre, dependendo de suas escolhas e da vitória contra o chefão: Sua amiga Cef, que esse tempo todo era um ceifador querendo evitar sua redenção.
+
+            
+
+
+Gameplaying - como o jogador irá atuar nessa história?
+
+            O jogador irá atuar sendo o Alaric, e descobrindo á cada fase sua história, revelando tudo apenas no final e decidindo se o personagem irá voltar a vida ou não.
+
+
 Protagonista - nome, espécie, idade, sexo, etnia, profissão, histórico
 
     Alaric; humano; 20; masculino; branco (brasileiro); estudante; homofóbico, mau caráter.
