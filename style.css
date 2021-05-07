@@ -1,0 +1,15 @@
+canvas{
+    border: 1px solid rgb(255, 251, 251);
+    background: url(res/img/background2.png);
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 250px;
+}
+body {
+    margin: 0; 
+    height: 700px;
+    overflow: hidden;
+    display: block;
+    background-image: url(res/img/fundo.png);
+    background-size: 100% 100%;
+ }
