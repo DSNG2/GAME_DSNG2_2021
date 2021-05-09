@@ -1,5 +1,7 @@
+/*css*/
+
 canvas{
-    border: 1px solid rgb(255, 251, 251);
+    border: 0px solid rgb(255, 251, 251);
     background: url(res/img/background2.png);
     position: absolute;
     margin-top: 115px;
