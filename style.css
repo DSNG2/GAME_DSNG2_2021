@@ -1,17 +1,35 @@
-/*css*/
-
 canvas{
-    border: 0px solid rgb(255, 251, 251);
+    border: 1px solid rgb(255, 251, 251);
     background: url(res/img/background2.png);
     position: absolute;
-    margin-top: 115px;
-    margin-left: 250px;
 }
 body {
-    margin: 0; 
-    height: 700px;
+    margin: 0;
+    height: 600px;
     overflow: hidden;
     display: block;
     background-image: url(res/img/fundo.png);
     background-size: 100% 100%;
- }
+}
+h2{
+    /*ajuste da cor e centralização da vida do personagem e ajuste das cores*/
+    color: aliceblue;
+    text-align: center;
+}
+h1{
+    /*ajuste da cor e centralização do titulo "Vida"e ajuste das cores*/
+    color: aliceblue;
+    text-align: center;
+}
+.parent {/*Esse site fornece um gerador de grid, utilizei ele para organizar melhor as informaçõeshttps://cssgrid-generator.netlify.app/*/
+    margin-top: 115px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }

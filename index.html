@@ -7,14 +7,19 @@
     <title>GHOST MEMORIES</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body >
+<body onkeydown="passos(event)">
 	<audio src="res/sound/Audio.mp3" id="som"></audio>
-    <canvas width="864" height="530">
-    </canvas>
+    <div class="parent">
+        <div class="div1">
+            <h1>Vida</h1>
+            <h2 id="vida"></h2>
+        </div>
+        <div class="div2">
+            <canvas>
+            </canvas>
+        </div>
+        <div class="div3"> </div>
+        </div>
     <script src="game.js"></script>
-    <script src="sprite.js"></script>
-
 </body>
 </html>
-<!-- // canvas.width = 864;
-// canvas.height = 530; -->

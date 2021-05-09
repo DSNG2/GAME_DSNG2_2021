@@ -6,6 +6,8 @@ canvas.height = 530;
 var c = canvas.getContext('2d');
 var delay = 500;
 var som = document.getElementById("som");
+// Está chamando a vida do personagem da pagina HTML, que inicialmente é 3.
+document.getElementById("vida").innerHTML = "3";
 
 var pontuacao1 = 0;
 var pontuacao2 = 0;
@@ -13,7 +15,7 @@ var pontuacao2 = 0;
 var x = 5;
 var y = 440;
 var dx = 5;
-var dy = 5;
+var dy = 2.5;
 
 function passos(event) {
     var tecla = event.key;
@@ -33,12 +35,12 @@ function passos(event) {
         if (tecla == "w" || tecla == "W") {
             if (y >= 442) {
                 y = y - dy;
-                //console.log("W - y" + y);
+                console.log("W - y = " + y);
                 new Audio("res/sound/Andar.mp3").play()
-                console.log(imagem);
+                //console.log(imagem);
                 if (imagem == "res/img/passo1.png") {
                     imagem = "res/img/passo2.png";
-                    console.log(imagem);
+                    //console.log(imagem);
                 }
                 else if (imagem == "res/img/passo2.png") {
                     imagem = "res/img/passo1.png";
@@ -51,7 +53,7 @@ function passos(event) {
         else if (tecla == "s" || tecla == "S") {
             if ((y - dy) < canvas.height - 50) {
                 y = y + dy;
-                //console.log("S - Y" + y);
+                console.log("S - Y = " + y);
                 new Audio("res/sound/Andar.mp3").play()
                 tecla = '';
                 if (imagem == "res/img/passo1.png") {
@@ -91,11 +93,12 @@ function passos(event) {
             }
         }
 
-        console.log("x - "+x+" y - "+y);
+        //Se o personagem se encontra nessas posições é computado um ponto, esse ponto é do fantasminha 1.
         if ((x >= 275 && x <= 320) && (y >= 465 && y <= 485)) {
             pontuacao1++;
             console.log("pontuacao 1 - " + pontuacao1);
         }
+        //Se o personagem mais uma vez estiver nessas posições e computado um ponto, esse ponto é do fantasminha 2.
         if ((x>=575 && x<=625) && (y >= 430 && y <= 450)) {
             pontuacao2++;
             console.log("pontuacao 2 - " + pontuacao2);
@@ -125,33 +128,20 @@ function passos(event) {
     }
 
     function vida(){
-        var vida = "res/img/vida.png";
-        var morte = "res/img/morte.png";
-        var img1 = new Image()
-        img1.onload = function(){
-            c.drawImage(img1, 700, 0);
+        // Se o personagem encontou no fantasminha 1, a vida é alterada para 2.
+        if(pontuacao1!=0){
+            document.getElementById("vida").innerHTML = "2";
         }
-        if(pontuacao1==0){
-            img1.src = vida;
+         // Se o personagem encontou no fantasminha 2, a vida é alterada para 2.
+        if(pontuacao2!=0){
+            if(pontuacao1==0){
+                document.getElementById("vida").innerHTML = "2";
+            }
+            // Se ele bater nos dois fantasminhas a sua vida cai para 1.
+            else{
+                document.getElementById("vida").innerHTML = "1";
+            }
         }
-        else{
-            img1.src = morte;
-        }
-        var img1 = new Image()
-        img1.onload = function(){
-            c.drawImage(img1, 720, 0);
-        }
-        if(pontuacao1==0){
-            img1.src = vida;
-        }
-        else{
-            img1.src = morte;
-        }
-        var img1 = new Image()
-        img1.onload = function(){
-            c.drawImage(img1, 740, 0);
-        }
-        img1.src = vida;
     }
 
     function animate() {
