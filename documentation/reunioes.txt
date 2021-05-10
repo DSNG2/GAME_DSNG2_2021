@@ -20,3 +20,38 @@ Assunto- Documentação do jogo para enviar ao professor Taero.
 
 7° Reunião 20/04/2021:
 Assunto- Continuação da documentação que deverá ser entregue ao professor Taero.
+
+8° Reunião 22/04/2021:
+Assunto- Início da discussão sobre como será a representação do jogo pelo HTML.
+
+9° Reunião 23/04/2021:
+Assunto- Início da programaçao pelo HTML.
+
+10° Reunião 26/04/2021:
+Assunto- Continuação do arquivo de 10 páginas que será entregue para o professor Taero.
+
+12° Reunião 27/04/2021:
+Assunto- Continuação do arquivo de 10 páginas que será entregue para o professor Taero e a finalização da representação do primeiro cenário.
+
+13° Reunião 29/04/2021:
+Assunto- Continuação da programação e busca por um sprite semelhante ao personagem pré-definido.
+
+14° Reunião 03/05/2021:
+Assunto- Continuação da programação e do arquivo de 10 página.
+
+15° Reunião 04/05/2021:
+Assunto- Continuação da programação e solução dos erros presentes nela.
+
+16° Reunião 05/05/2021:
+Assunto- Finalização do arquivo de 10 página e continuação da programação.
+
+17° Reunião 06/05/2021:
+Assunto- Continuação da programação, colocando o som no jogo e testando a movimentação do personagem.
+
+18° Reunião 09/05/2021:
+Assunto- Finalização da programação e ensaio para a apresentação.
+
+19° Reunião 10/05/2021:
+Assunto- Complementação do jogo e ensaio para a apresentação.
+
+
